@@ -92,9 +92,9 @@ export default function Home() {
           {/* Hutchins Quote */}
           <blockquote className="mb-10 md:mb-12 px-6 md:px-8 py-8 md:py-10 bg-[var(--maroon)]/4 rounded-lg border-l-4 border-[var(--maroon)] max-w-4xl">
             <p className="text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed font-medium text-black/90 mb-4">
-              "A university is a community of scholars. It is not a kindergarten; it is not a club;
-              it is not a reform school; it is not a political party; it is not an agency of
-              propaganda. A university is a community of scholars."
+              &ldquo;A university is a community of scholars. It is not a kindergarten; it is not a
+              club; it is not a reform school; it is not a political party; it is not an agency of
+              propaganda. A university is a community of scholars.&rdquo;
             </p>
             <footer className="text-sm md:text-base text-black/70">
               <cite className="not-italic">
