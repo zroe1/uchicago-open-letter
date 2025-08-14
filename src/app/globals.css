@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f0f0f;
+  --maroon: #800000; /* UChicago maroon */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-maroon: var(--maroon);
+  --font-serif: var(--font-eb-garamond);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-eb-garamond), Garamond, "Times New Roman", serif;
+}
+
+/* Basic typography rhythm for a professional, readable letter */
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: var(--maroon);
+}
+
+/* Remove default focus outlines only to replace with accessible maroon focus */
+:focus-visible {
+  outline: 2px solid var(--maroon);
+  outline-offset: 2px;
+}
