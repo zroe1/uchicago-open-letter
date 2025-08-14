@@ -5,7 +5,7 @@ export default function Home() {
       <header className="w-full border-b border-black/10">
         <div className="mx-auto max-w-screen-2xl px-5 py-10 md:px-8 md:py-12 lg:px-10 lg:py-14">
           <h1 className="text-4xl md:text-5xl/[1.1] font-semibold tracking-tight">
-            An Open Letter
+            An Open Letter to the University of Chicago
           </h1>
           <p className="mt-3 md:mt-4 max-w-3xl text-lg md:text-xl text-black/70">
             A statement from members of the University of Chicago community.
@@ -89,11 +89,19 @@ export default function Home() {
 
         {/* Main sections */}
         <main className="pb-20 lg:pb-24">
-          {/* Hero banner stripe */}
-          <div
-            className="mb-10 md:mb-12 h-20 md:h-28 lg:h-32 w-full bg-[var(--maroon)]/6 rounded-md"
-            aria-hidden
-          />
+          {/* Hutchins Quote */}
+          <blockquote className="mb-10 md:mb-12 px-6 md:px-8 py-8 md:py-10 bg-[var(--maroon)]/4 rounded-lg border-l-4 border-[var(--maroon)] max-w-4xl">
+            <p className="text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-relaxed lg:leading-relaxed font-medium text-black/90 mb-4">
+              "A university is a community of scholars. It is not a kindergarten; it is not a club;
+              it is not a reform school; it is not a political party; it is not an agency of
+              propaganda. A university is a community of scholars."
+            </p>
+            <footer className="text-sm md:text-base text-black/70">
+              <cite className="not-italic">
+                — University of Chicago President <strong>Robert Maynard Hutchins</strong>
+              </cite>
+            </footer>
+          </blockquote>
 
           {/* Letter */}
           <section id="letter" className="max-w-3xl">
