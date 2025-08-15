@@ -8,7 +8,7 @@ export default function Home() {
             An Open Letter to the University of Chicago
           </h1>
           <p className="mt-3 md:mt-4 max-w-3xl text-lg md:text-xl text-black/70">
-            A statement for the academic and scholarly community.
+            A statement from the academic and scholarly community.
           </p>
         </div>
       </header>
