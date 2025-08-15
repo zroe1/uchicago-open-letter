@@ -238,16 +238,12 @@ export default function Home() {
             <ul className="divide-y divide-black/10 rounded-md border border-black/10">
               {[
                 {
-                  name: "First Last",
-                  title: "Professor, Department",
+                  name: "Isabelle Lee",
+                  title: "BA/MA Candidate at the University of Chicago",
                 },
                 {
-                  name: "First Last",
-                  title: "Graduate Student, Division",
-                },
-                {
-                  name: "First Last",
-                  title: "Researcher, Institute",
+                  name: "Zephaniah Roe",
+                  title: "Undergraduate Student at the University of Chicago",
                 },
               ].map((p, idx) => (
                 <li key={idx} className="flex items-center justify-between p-4 md:p-5">
@@ -267,19 +263,35 @@ export default function Home() {
           <section id="add-signature" className="max-w-3xl mt-16 md:mt-20">
             <h2 className="text-2xl md:text-3xl font-semibold">Add your signature</h2>
             <hr className="mt-5 md:mt-6 mb-8 md:mb-10 border-[var(--maroon)]/30" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-              <input className="rounded border border-black/20 px-4 py-3" placeholder="Full name" />
-              <input
-                className="rounded border border-black/20 px-4 py-3"
-                placeholder="Affiliation"
-              />
-              <input
-                className="sm:col-span-2 rounded border border-black/20 px-4 py-3"
-                placeholder="Email (not displayed)"
-              />
-              <button className="sm:col-span-2 w-full sm:w-max rounded bg-[var(--maroon)] px-6 py-3 text-white">
-                Submit signature
-              </button>
+            <div className="space-y-6">
+              <p className="text-[17px] md:text-[19px] leading-7 md:leading-8 text-black/80">
+                Add your name to affirm the University of Chicago&rsquo;s commitment to intellectual
+                breadth and transparent governance.
+              </p>
+              <div className="bg-[var(--maroon)]/4 rounded-lg p-6 border-l-4 border-[var(--maroon)]">
+                <h3 className="text-lg font-semibold mb-3 text-[var(--maroon)]">
+                  Sign the Open Letter
+                </h3>
+                <p className="text-black/80 mb-4">
+                  Sign using the secure University of Chicago form.
+                </p>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSff70ymDPLK6n2UhN5INTzqc9jBudXdDXpz6FUbOhCX-0-4gg/viewform?usp=dialog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded bg-[var(--maroon)] px-6 py-3 font-medium hover:bg-[var(--maroon)]/90 transition-colors"
+                  style={{ color: "#fff" }}>
+                  Sign the Letter
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </section>
 
