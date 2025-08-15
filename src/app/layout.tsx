@@ -9,25 +9,28 @@ const ebGaramond = EB_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "UChicago Open Letter",
-  description: "An open letter landing page for the University of Chicago community.",
+  metadataBase: new URL("https://saveuchicago.com"),
+  title: "Save UChicago",
+  description: "An open letter to the University of Chicago.",
   openGraph: {
-    title: "UChicago Open Letter",
-    description: "An open letter landing page for the University of Chicago community.",
+    title: "Save UChicago",
+    description: "An open letter to the University of Chicago.",
+    url: "https://saveuchicago.com",
+    siteName: "Save UChicago",
     images: [
       {
-        url: "/preview.png",
+        url: "/preview.png?v=1",
         width: 1200,
         height: 630,
-        alt: "UChicago Open Letter preview",
+        alt: "Save UChicago preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "UChicago Open Letter",
-    description: "An open letter landing page for the University of Chicago community.",
-    images: ["/preview.png"],
+    title: "Save UChicago",
+    description: "An open letter to the University of Chicago.",
+    images: ["https://saveuchicago.com/preview.png?v=1"],
   },
 };
 
