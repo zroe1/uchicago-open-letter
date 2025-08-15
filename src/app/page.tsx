@@ -8,7 +8,7 @@ export default function Home() {
             An Open Letter to the University of Chicago
           </h1>
           <p className="mt-3 md:mt-4 max-w-3xl text-lg md:text-xl text-black/70">
-            A statement from members of the University of Chicago community.
+            A statement for the academic and scholarly community.
           </p>
         </div>
       </header>
@@ -136,7 +136,7 @@ export default function Home() {
                 The first concrete effects of these initiatives are already here: Ph.D. admissions
                 across half of the humanities departments (including Classics, Comparative
                 Literature, and Germanic Studies) have been frozen, with several social sciences
-                departments (including the Committee on Social Thought), also instructed to do the
+                departments (including the Committee on Social Thought) also instructed to do the
                 same.
               </p>
               <p>
@@ -232,7 +232,6 @@ export default function Home() {
           <section id="signatories" className="max-w-4xl mt-16 md:mt-20">
             <div className="flex items-baseline justify-between">
               <h2 className="text-2xl md:text-3xl font-semibold">Signatories</h2>
-              <span className="text-sm text-black/60">Sample list</span>
             </div>
             <hr className="mt-5 md:mt-6 mb-6 md:mb-8 border-[var(--maroon)]/30" />
 
