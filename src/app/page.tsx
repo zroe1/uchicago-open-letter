@@ -98,7 +98,8 @@ export default function Home() {
             </p>
             <footer className="text-sm md:text-base text-black/70">
               <cite className="not-italic">
-                — University of Chicago President <strong>Robert Maynard Hutchins</strong>
+                — <strong>Robert Maynard Hutchins</strong>, President of the University of Chicago
+                (1929–1945)
               </cite>
             </footer>
           </blockquote>
