@@ -21,7 +21,7 @@ export default function Home() {
               <a
                 className="whitespace-nowrap rounded-full border border-[var(--maroon)]/50 px-3 py-1.5 text-[15px] text-[var(--maroon)]"
                 href="#letter">
-                Open Letter
+                Dear Reader,
               </a>
             </li>
             <li>
@@ -301,7 +301,11 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-semibold">Appendix</h2>
             <hr className="mt-5 md:mt-6 mb-6 md:mb-8 border-[var(--maroon)]/30" />
             <p className="text-[17px] md:text-[19px] leading-7 md:leading-8 text-black/80">
-              Supplemental materials, references, and footnotes can be listed here.
+              We will update this section with additional information as it becomes available.{" "}
+              <b>
+                Because it may be updated after one signs, the content in the appendix is not
+                necessarily endorsed by all signatories.
+              </b>
             </p>
           </section>
         </main>
