@@ -21,7 +21,7 @@ export default function Home() {
               <a
                 className="whitespace-nowrap rounded-full border border-[var(--maroon)]/50 px-3 py-1.5 text-[15px] text-[var(--maroon)]"
                 href="#letter">
-                Dear Reader,
+                Open Letter
               </a>
             </li>
             <li>
@@ -106,7 +106,7 @@ export default function Home() {
 
           {/* Letter */}
           <section id="letter" className="max-w-3xl">
-            <h2 className="text-2xl md:text-3xl font-semibold">Open Letter</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold">Dear Reader,</h2>
             <hr className="mt-5 md:mt-6 mb-8 md:mb-10 border-[var(--maroon)]/30" />
             <div className="max-w-none text-[17px] md:text-[19px] leading-7 md:leading-8 space-y-5">
               <p>
