@@ -11,6 +11,24 @@ const ebGaramond = EB_Garamond({
 export const metadata: Metadata = {
   title: "UChicago Open Letter",
   description: "An open letter landing page for the University of Chicago community.",
+  openGraph: {
+    title: "UChicago Open Letter",
+    description: "An open letter landing page for the University of Chicago community.",
+    images: [
+      {
+        url: "/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "UChicago Open Letter preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UChicago Open Letter",
+    description: "An open letter landing page for the University of Chicago community.",
+    images: ["/preview.png"],
+  },
 };
 
 export default function RootLayout({
