@@ -277,7 +277,7 @@ export default function Home() {
                   Sign the Open Letter
                 </h3>
                 <p className="text-black/80 mb-4">
-                  Sign using the secure University of Chicago form.
+                  Sign using the following external form. Emails entered will not be displayed.
                 </p>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSff70ymDPLK6n2UhN5INTzqc9jBudXdDXpz6FUbOhCX-0-4gg/viewform?usp=dialog"
