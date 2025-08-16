@@ -245,6 +245,10 @@ export default function Home() {
                   name: "Zephaniah Roe",
                   title: "Undergraduate Student at the University of Chicago",
                 },
+                {
+                  name: "Will Zimmermann",
+                  title: "University of Chicago, BA in Linguistics, 2025",
+                },
               ].map((p, idx) => (
                 <li key={idx} className="flex items-center justify-between p-4 md:p-5">
                   <div>
