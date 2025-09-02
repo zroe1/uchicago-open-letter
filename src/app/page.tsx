@@ -27,15 +27,15 @@ export default function Home() {
             <li>
               <a
                 className="whitespace-nowrap rounded-full border border-[var(--maroon)]/50 px-3 py-1.5 text-[15px] text-[var(--maroon)]"
-                href="#signatories">
-                Signatories
+                href="#add-signature">
+                Add signature
               </a>
             </li>
             <li>
               <a
                 className="whitespace-nowrap rounded-full border border-[var(--maroon)]/50 px-3 py-1.5 text-[15px] text-[var(--maroon)]"
-                href="#add-signature">
-                Add signature
+                href="#signatories">
+                Signatories
               </a>
             </li>
             <li>
@@ -65,15 +65,15 @@ export default function Home() {
               <li>
                 <a
                   className="hover:underline decoration-[var(--maroon)] underline-offset-4"
-                  href="#signatories">
-                  Signatories
+                  href="#add-signature">
+                  Add your signature
                 </a>
               </li>
               <li>
                 <a
                   className="hover:underline decoration-[var(--maroon)] underline-offset-4"
-                  href="#add-signature">
-                  Add your signature
+                  href="#signatories">
+                  Signatories
                 </a>
               </li>
               <li>
@@ -358,41 +358,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Signatories */}
-          <section id="signatories" className="max-w-4xl mt-16 md:mt-20">
-            <div className="flex items-baseline justify-between">
-              <h2 className="text-2xl md:text-3xl font-semibold">Signatories</h2>
-            </div>
-            <hr className="mt-5 md:mt-6 mb-6 md:mb-8 border-[var(--maroon)]/30" />
-
-            <ul className="divide-y divide-black/10 rounded-md border border-black/10">
-              {[
-                {
-                  name: "Isabelle Lee",
-                  title: "BA/MA Candidate at the University of Chicago",
-                },
-                {
-                  name: "Zephaniah Roe",
-                  title: "Undergraduate Student at the University of Chicago",
-                },
-                {
-                  name: "Will Zimmermann",
-                  title: "University of Chicago, BA in Linguistics, 2025",
-                },
-              ].map((p, idx) => (
-                <li key={idx} className="flex items-center justify-between p-4 md:p-5">
-                  <div>
-                    <div className="text-base md:text-lg">{p.name}</div>
-                    <div className="text-sm md:text-base text-black/70">{p.title}</div>
-                  </div>
-                  <span className="inline-flex items-center rounded-full border border-[var(--maroon)]/50 px-2.5 py-1 text-xs md:text-sm text-[var(--maroon)]">
-                    Supporter
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </section>
-
           {/* Add signature */}
           <section id="add-signature" className="max-w-3xl mt-16 md:mt-20">
             <h2 className="text-2xl md:text-3xl font-semibold">Add your signature</h2>
@@ -427,6 +392,64 @@ export default function Home() {
                 </a>
               </div>
             </div>
+          </section>
+
+          {/* Signatories */}
+          <section id="signatories" className="max-w-4xl mt-16 md:mt-20">
+            <div className="flex items-baseline justify-between">
+              <h2 className="text-2xl md:text-3xl font-semibold">Signatories</h2>
+            </div>
+            <hr className="mt-5 md:mt-6 mb-6 md:mb-8 border-[var(--maroon)]/30" />
+
+            <ul className="divide-y divide-black/10 rounded-md border border-black/10">
+              {[
+                {
+                  name: "John E. Woods",
+                  title: "UChicago Emeritus Professor of History",
+                  badge: "UChicago Emeritus Professor",
+                  badgeType: "emphasized",
+                },
+                {
+                  name: "Isabelle Lee",
+                  title: "BA/MA Candidate at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Zephaniah Roe",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Will Zimmermann",
+                  title: "University of Chicago, BA in Linguistics, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Ryan MacIsaac",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+              ].map((p, idx) => (
+                <li key={idx} className="flex items-center justify-between p-4 md:p-5">
+                  <div>
+                    <div className="text-base md:text-lg">{p.name}</div>
+                    <div className="text-sm md:text-base text-black/70">{p.title}</div>
+                  </div>
+                  <span
+                    className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs md:text-sm ${
+                      p.badgeType === "emphasized"
+                        ? "bg-[var(--maroon)] text-white"
+                        : "border border-[var(--maroon)]/50 text-[var(--maroon)]"
+                    }`}>
+                    {p.badge}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </section>
 
           {/* Appendix */}
