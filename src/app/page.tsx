@@ -138,10 +138,10 @@ export default function Home() {
               </p>
               <p>
                 The first concrete effects of these initiatives are already here: Ph.D. admissions
-                across half of the humanities departments (including Classics, Comparative
-                Literature, and Germanic Studies) have been frozen, with several social sciences
-                departments (including the Committee on Social Thought), also instructed to do the
-                same.
+                across all the humanities departments except Music Composition and Philosophy have
+                been frozen for the upcoming application cycle, with several social sciences
+                departments (including the Committee on Social Thought and Anthropology), also
+                instructed to do the same.
               </p>
               <p>
                 The administration wants us to believe these changes stem from federal budget cuts—a
