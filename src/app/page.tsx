@@ -445,6 +445,18 @@ export default function Home() {
                   badge: "UChicago Student",
                   badgeType: "normal",
                 },
+                {
+                  name: "Sydney Cook",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Chloe Chiles Troutman",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
               ].map((p, idx) => (
                 <li key={idx} className="flex items-center justify-between p-4 md:p-5">
                   <div>
