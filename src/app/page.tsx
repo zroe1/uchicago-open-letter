@@ -452,6 +452,12 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Blaise Antin",
+                  title: "UChicago Parent",
+                  badge: "UChicago Parent",
+                  badgeType: "normal",
+                },
+                {
                   name: "Sydney Cook",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
@@ -465,6 +471,18 @@ export default function Home() {
                 },
                 {
                   name: "Rohan Rao",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Soph Franklin",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Natalie Antin",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
                   badgeType: "normal",
