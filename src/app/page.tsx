@@ -410,6 +410,12 @@ export default function Home() {
                   badgeType: "emphasized",
                 },
                 {
+                  name: "David Martinez",
+                  title: "UChicago Associate Professor",
+                  badge: "UChicago Faculty",
+                  badgeType: "emphasized",
+                },
+                {
                   name: "Isabelle Lee",
                   title: "BA/MA Candidate at the University of Chicago",
                   badge: "UChicago Student",
@@ -457,20 +463,32 @@ export default function Home() {
                   badge: "UChicago Student",
                   badgeType: "normal",
                 },
+                {
+                  name: "Rohan Rao",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Alex Hasapis",
+                  badge: null,
+                },
               ].map((p, idx) => (
                 <li key={idx} className="flex items-center justify-between p-4 md:p-5">
                   <div>
                     <div className="text-base md:text-lg">{p.name}</div>
                     <div className="text-sm md:text-base text-black/70">{p.title}</div>
                   </div>
-                  <span
-                    className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs md:text-sm ${
-                      p.badgeType === "emphasized"
-                        ? "bg-[var(--maroon)] text-white"
-                        : "border border-[var(--maroon)]/50 text-[var(--maroon)]"
-                    }`}>
-                    {p.badge}
-                  </span>
+                  {p.badge && (
+                    <span
+                      className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs md:text-sm ${
+                        p.badgeType === "emphasized"
+                          ? "bg-[var(--maroon)] text-white"
+                          : "border border-[var(--maroon)]/50 text-[var(--maroon)]"
+                      }`}>
+                      {p.badge}
+                    </span>
+                  )}
                 </li>
               ))}
             </ul>
