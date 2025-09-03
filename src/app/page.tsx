@@ -422,6 +422,12 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Caroline Kaminsky",
+                  title: "Graduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Will Zimmermann",
                   title: "University of Chicago, BA in Linguistics, 2025",
                   badge: "UChicago Graduate",
@@ -429,6 +435,12 @@ export default function Home() {
                 },
                 {
                   name: "Ryan MacIsaac",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Christine Hignite",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
                   badgeType: "normal",
