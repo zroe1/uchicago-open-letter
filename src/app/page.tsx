@@ -488,6 +488,24 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Henie Zhang",
+                  title: "UChicago Master's Student",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Maximiliano Mendoza",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Hannah Thier",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Alex Hasapis",
                   badge: null,
                 },
