@@ -637,7 +637,83 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Natalia Serrano-Chavez",
+                  title: "UChicago Comparative Human Development, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Viviana Ornelas",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Emma Pavlicek",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Jacob Stump",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Harjas Sandhu",
+                  title: "University of Chicago, BA in Physics, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Monica Gould",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Jack Foley",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Clara Pressey",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Weston Fox",
+                  badge: null,
+                },
+                {
+                  name: "Gwendolyn May Sheley",
+                  badge: null,
+                },
+                {
+                  name: "Celina Cortes",
+                  badge: null,
+                },
+                {
+                  name: "Legrand Davis",
+                  badge: null,
+                },
+                {
+                  name: "Marissa Todd",
+                  badge: null,
+                },
+                {
+                  name: "Leena",
+                  badge: null,
+                },
+                {
                   name: "Alex Hasapis",
+                  badge: null,
+                },
+                {
+                  name: "Kailas Devulapally",
                   badge: null,
                 },
                 {
@@ -647,6 +723,12 @@ export default function Home() {
                 {
                   name: "Emily Siwing Xia",
                   badge: null,
+                },
+                {
+                  name: "Kayla",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
                 },
                 {
                   name: "Mido Sang",
