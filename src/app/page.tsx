@@ -491,6 +491,52 @@ export default function Home() {
                   name: "Alex Hasapis",
                   badge: null,
                 },
+                {
+                  name: "Mido Sang",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Cooper Komatsu",
+                  title: "University of Chicago AB/AM 2024",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Catherine Stuebbe",
+                  badge: null,
+                },
+                {
+                  name: "Abigail Poag",
+                  title:
+                    "University of Chicago, BA in Comparative Literature and Russian and East European Studies, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Ethan Moore",
+                  title: "University of Chicago Undergraduate",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Leon Gold",
+                  title: "University of Chicago, Physics and Geophysical Sciences, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Sophie [last name]",
+                  title: "Kings College London Alumni",
+                  badge: null,
+                },
+                {
+                  name: "Mia [last name]",
+                  title: "University of Chicago Undergraduate",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
               ].map((p, idx) => (
                 <li key={idx} className="flex items-center justify-between p-4 md:p-5">
                   <div>
