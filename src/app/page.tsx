@@ -715,14 +715,16 @@ export default function Home() {
                   badgeType: "normal",
                 },
               ].map((p, idx) => (
-                <li key={idx} className="flex items-center justify-between p-4 md:p-5">
-                  <div>
+                <li
+                  key={idx}
+                  className="flex items-center justify-between p-4 md:p-5 gap-3 md:gap-4">
+                  <div className="flex-1 min-w-0">
                     <div className="text-base md:text-lg">{p.name}</div>
                     <div className="text-sm md:text-base text-black/70">{p.title}</div>
                   </div>
                   {p.badge && (
                     <span
-                      className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs md:text-sm ${
+                      className={`inline-flex items-center justify-center text-center rounded-full px-2.5 py-1 text-xs md:text-sm flex-shrink-0 ${
                         p.badgeType === "emphasized"
                           ? "bg-[var(--maroon)] text-white"
                           : "border border-[var(--maroon)]/50 text-[var(--maroon)]"
