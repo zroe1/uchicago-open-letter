@@ -534,7 +534,7 @@ export default function Home() {
                 },
                 {
                   name: "Ethan Moore",
-                  title: "University of Chicago Undergraduate",
+                  title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
                   badgeType: "normal",
                 },
@@ -551,7 +551,7 @@ export default function Home() {
                 },
                 {
                   name: "Mia [last name]",
-                  title: "University of Chicago Undergraduate",
+                  title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
                   badgeType: "normal",
                 },
