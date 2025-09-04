@@ -422,6 +422,12 @@ export default function Home() {
                   badgeType: "emphasized",
                 },
                 {
+                  name: "Jonah Radding",
+                  title: "UChicago Assistant Instructional Professor",
+                  badge: "UChicago Faculty",
+                  badgeType: "emphasized",
+                },
+                {
                   name: "Eduardo García-Molina",
                   title: "Assistant Professor of Classics, University of Illinois Urbana-Champaign",
                   badge: "UChicago Graduate",
