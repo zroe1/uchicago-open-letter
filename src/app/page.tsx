@@ -454,6 +454,12 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Antônio Both Schenatto",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Caroline Kaminsky",
                   title: "Graduate Student at the University of Chicago",
                   badge: "UChicago Student",
@@ -496,6 +502,18 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Sasha Maskoff",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Barbara Marbell",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Will Epstein",
                   title: "University of Chicago, BS, 2025",
                   badge: "UChicago Graduate",
@@ -510,6 +528,12 @@ export default function Home() {
                 {
                   name: "Hudson Ozaki Kottman",
                   title: "University of Chicago, Graduate",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Chester Wooldridge",
+                  title: "University of Chicago, Biology BA, 2025",
                   badge: "UChicago Graduate",
                   badgeType: "normal",
                 },
@@ -747,6 +771,24 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Sallie Hinkle",
+                  title: "University of Chicago, Global Studies BA, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Jenna Moor",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Keyara Sims",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Sydney Sparr",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
@@ -764,6 +806,10 @@ export default function Home() {
                   title: "UChicago Student",
                   badge: "UChicago Student",
                   badgeType: "normal",
+                },
+                {
+                  name: "JJ Robeck",
+                  badge: null,
                 },
                 {
                   name: "Weston Fox",
