@@ -641,6 +641,30 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Alexandra Ware",
+                  title: "Graduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Heather Liu",
+                  title: "Univeristy of Chicago Parent",
+                  badge: "UChicago Parent",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Yuanlong Zheng",
+                  title: "University of Chicago, PhD student, Undergraduate Alum, 2024",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Adam Katwan",
+                  title: "PhD Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Mickey Kelly",
                   title: "University of Chicago, BA Physics, 2024",
                   badge: "UChicago Graduate",
@@ -1391,6 +1415,42 @@ export default function Home() {
                 },
                 {
                   name: "Ariana L",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Rohan Buluswar",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Vincent Tran",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Aaron Yang",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Ariana L",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Liam Horton",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Junze Bao",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
                   badgeType: "normal",
