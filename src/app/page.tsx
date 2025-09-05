@@ -1,3 +1,5 @@
+import { basename } from "path";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-black">
@@ -458,6 +460,12 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Ziyu Feng",
+                  title: "Graduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Will Zimmermann",
                   title: "University of Chicago, BA in Linguistics, 2025",
                   badge: "UChicago Graduate",
@@ -625,6 +633,18 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
+                  name: "Viviana Hilario",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Abbey Figueroa",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
                   name: "Marcus Catanzaro",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
@@ -687,6 +707,61 @@ export default function Home() {
                 {
                   name: "Clara Pressey",
                   title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Ximena Valverde",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Julia Fink",
+                  title: "University of Chicago, Classical Studies, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Livia Zhu",
+                  title: "Masters Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Desmond Saunders",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Nic Restivo",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Madeleine Grosso",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Sydney Sparr",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Walton Yan",
+                  title:
+                    "University of Chicago, Classics, German, Art History, and Religious Studies BA, 2025",
+                  badge: "UChicago Graduate",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Lillian Fu",
+                  title: "UChicago Student",
                   badge: "UChicago Student",
                   badgeType: "normal",
                 },
@@ -804,6 +879,12 @@ export default function Home() {
                 },
                 {
                   name: "Mia",
+                  title: "Undergraduate Student at the University of Chicago",
+                  badge: "UChicago Student",
+                  badgeType: "normal",
+                },
+                {
+                  name: "Anna",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
                   badgeType: "normal",
