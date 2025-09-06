@@ -447,7 +447,7 @@ export default function Home() {
             </div>
             <p className="mt-3 text-lg text-black/70">
               The <b>{signatories.length}</b> signature{signatories.length !== 1 ? "s" : ""} listed
-              below are in support of the Open Letter.
+              below are in support of the open letter.
             </p>
             <hr className="mt-5 md:mt-6 mb-6 md:mb-8 border-[var(--maroon)]/30" />
 
