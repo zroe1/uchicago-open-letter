@@ -738,12 +738,6 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
-                  name: "Hudson Ozaki Kottman",
-                  title: "University of Chicago, Graduate",
-                  badge: "UChicago Graduate",
-                  badgeType: "normal",
-                },
-                {
                   name: "Chester Wooldridge",
                   title: "University of Chicago, Biology BA, 2025",
                   badge: "UChicago Graduate",
@@ -1204,12 +1198,6 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
-                  name: "Natalia Serrano-Chavez",
-                  title: "UChicago Comparative Human Development, 2025",
-                  badge: "UChicago Graduate",
-                  badgeType: "normal",
-                },
-                {
                   name: "Viviana Ornelas",
                   title: "Undergraduate Student at the University of Chicago",
                   badge: "UChicago Student",
@@ -1438,12 +1426,7 @@ export default function Home() {
                   badge: "UChicago Student",
                   badgeType: "normal",
                 },
-                {
-                  name: "Manuel Maria Azpurua",
-                  title: "Undergraduate Student at the University of Chicago",
-                  badge: "UChicago Student",
-                  badgeType: "normal",
-                },
+
                 {
                   name: "Audrey Shin",
                   title: "Undergraduate Student at the University of Chicago",
@@ -1600,12 +1583,7 @@ export default function Home() {
                   badge: "UChicago Student",
                   badgeType: "normal",
                 },
-                {
-                  name: "Yushu Qiu",
-                  title: "University of Chicago, Alum",
-                  badge: "UChicago Graduate",
-                  badgeType: "normal",
-                },
+
                 {
                   name: "Kalea Walthall",
                   badge: null,
@@ -1624,10 +1602,6 @@ export default function Home() {
                 },
                 {
                   name: "Weston Fox",
-                  badge: null,
-                },
-                {
-                  name: "Gwendolyn May Sheley",
                   badge: null,
                 },
                 {
@@ -1675,20 +1649,10 @@ export default function Home() {
                   badgeType: "normal",
                 },
                 {
-                  name: "Mido Sang",
-                  title: "Undergraduate Student at the University of Chicago",
-                  badge: "UChicago Student",
-                  badgeType: "normal",
-                },
-                {
                   name: "Cooper Komatsu",
                   title: "University of Chicago AB/AM 2024",
                   badge: "UChicago Graduate",
                   badgeType: "normal",
-                },
-                {
-                  name: "Catherine Stuebbe",
-                  badge: null,
                 },
                 {
                   name: "Abigail Poag",
@@ -1724,10 +1688,6 @@ export default function Home() {
                 {
                   name: "Nicole Faigen",
                   badge: null,
-                },
-                {
-                  name: "Amy D",
-                  title: "Undergraduate Student",
                 },
                 {
                   name: "Jo",
