@@ -1,5 +1,3 @@
-import { basename } from "path";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-black">
@@ -136,14 +134,16 @@ export default function Home() {
                 departments. At the same time, the University directed the Languages Working Group,
                 also consisting of instructors and faculty in AHD, to propose a minimum number of
                 students required for any language class to run, and even the wholesale elimination
-                of certain languages within the division.
+                of certain languages within the division. As for SSD, Dean Woodward has announced
+                her intention to subject non-departmental centers and committees (such as the Pozen
+                Center for Human Rights) to review, with a view to eliminating some and reducing the
+                funding of others.
               </p>
               <p>
-                The first concrete effects of these initiatives are already here: Ph.D. admissions
-                across all the humanities departments except Music Composition and Philosophy have
-                been frozen for the upcoming application cycle, with several social sciences
-                departments (including the Committee on Social Thought and Anthropology), also
-                instructed to do the same.
+                Alongside the divisional restructuring initiatives, Ph.D. admissions across all the
+                humanities departments except Music Composition and Philosophy have been frozen for
+                the upcoming application cycle, with several social sciences departments (including
+                the Committee on Social Thought and Anthropology), also instructed to do the same.
               </p>
               <p>
                 The administration wants us to believe these changes stem from federal budget cuts—a
@@ -162,8 +162,8 @@ export default function Home() {
                     3
                   </a>
                 </sup>{" "}
-                We urge readers to consult Clifford Ando&rsquo;s published analyses of the
-                University&rsquo;s finances, which lay bare the true scope of the problem.
+                We urge readers to consult the articles linked below, which lay bare the true scope
+                of the problem.
                 <sup className="footnote-ref">
                   <a
                     href="#footnote-4"
@@ -177,15 +177,29 @@ export default function Home() {
                     className="text-[var(--maroon)] hover:underline text-sm font-bold">
                     5
                   </a>
+                </sup>
+                <sup className="footnote-ref">
+                  <a
+                    href="#footnote-6"
+                    className="text-[var(--maroon)] hover:underline text-sm font-bold">
+                    6
+                  </a>
+                </sup>
+                <sup className="footnote-ref">
+                  <a
+                    href="#footnote-7"
+                    className="text-[var(--maroon)] hover:underline text-sm font-bold">
+                    7
+                  </a>
                 </sup>{" "}
                 The Board of Trustees using the Trump administration’s budgetary moves as cover to
                 unilaterally push through long-desired restructuring is not only dishonest—it is a
                 betrayal of its commitments to the intellectual community that supports it.
                 <sup className="footnote-ref">
                   <a
-                    href="#footnote-6"
+                    href="#footnote-8"
                     className="text-[var(--maroon)] hover:underline text-sm font-bold">
-                    6
+                    8
                   </a>
                 </sup>
               </p>
@@ -230,8 +244,9 @@ export default function Home() {
                   <h3 className="font-semibold mb-2">No department mergers or dissolutions.</h3>
                   <p>
                     The University must immediately halt any plans to consolidate or eliminate
-                    departments, particularly those in the humanities, arts, and social sciences,
-                    which are integral to our intellectual mission and diversity of scholarship.
+                    departments and centers, particularly those in the humanities, arts, and social
+                    sciences, which are integral to our intellectual mission and diversity of
+                    scholarship.
                   </p>
                 </div>
                 <div className="border-l-4 border-[var(--maroon)] pl-4">
@@ -319,6 +334,34 @@ export default function Home() {
                     </span>
                     <div className="text-black/70">
                       <a
+                        href="https://www.theatlantic.com/culture/archive/2025/08/university-chicago-humanities-doctorate/684004/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[var(--maroon)] hover:underline underline-offset-2 break-words">
+                        https://www.theatlantic.com/culture/archive/2025/08/university-chicago-humanities-doctorate/684004/
+                      </a>
+                    </div>
+                  </div>
+                  <div id="footnote-5" className="flex items-start gap-3">
+                    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[var(--maroon)]/10 text-[var(--maroon)] text-xs font-medium mt-0.5 flex-shrink-0">
+                      5
+                    </span>
+                    <div className="text-black/70">
+                      <a
+                        href="https://www.chronicle.com/newsletter/the-review/2025-08-18"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[var(--maroon)] hover:underline underline-offset-2 break-words">
+                        https://www.chronicle.com/newsletter/the-review/2025-08-18
+                      </a>
+                    </div>
+                  </div>
+                  <div id="footnote-6" className="flex items-start gap-3">
+                    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[var(--maroon)]/10 text-[var(--maroon)] text-xs font-medium mt-0.5 flex-shrink-0">
+                      6
+                    </span>
+                    <div className="text-black/70">
+                      <a
                         href="https://www.chicagotribune.com/2025/07/14/opinion-university-of-chicago-donald-trump-research-funding/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -327,9 +370,9 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div id="footnote-5" className="flex items-start gap-3">
+                  <div id="footnote-7" className="flex items-start gap-3">
                     <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[var(--maroon)]/10 text-[var(--maroon)] text-xs font-medium mt-0.5 flex-shrink-0">
-                      5
+                      7
                     </span>
                     <div className="text-black/70">
                       <a
@@ -341,9 +384,9 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <div id="footnote-6" className="flex items-start gap-3">
+                  <div id="footnote-8" className="flex items-start gap-3">
                     <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-[var(--maroon)]/10 text-[var(--maroon)] text-xs font-medium mt-0.5 flex-shrink-0">
-                      6
+                      8
                     </span>
                     <div className="text-black/70">
                       <a
