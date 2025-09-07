@@ -18,6 +18,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Sarah Nooter",
+    title: "Edward Olson Professor of Classics at the University of Chicago",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonah Radding",
     title: "UChicago Assistant Instructional Professor",
     badge: "UChicago Faculty",
@@ -26,6 +32,12 @@ export const signatories = [
   {
     name: "Emily Austin",
     title: "UChicago Associate Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "William Levine",
+    title: "Collegiate Assistant Professor",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
