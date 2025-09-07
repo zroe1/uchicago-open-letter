@@ -37,7 +37,13 @@ export const signatories = [
   },
   {
     name: "William Levine",
-    title: "Collegiate Assistant Professor",
+    title: "UChicago Collegiate Assistant Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Andrew Ollett",
+    title: "UChicago Associate Professor",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
@@ -214,6 +220,36 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Abhiraj Singh",
+    title: "PhD Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Gray Reichl",
+    title: "PhD Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Yuanlong Zheng",
+    title: "University of Chicago, PhD student, Undergraduate Alum, 2024",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Jacob McDowell",
+    title: "PhD Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Martin Niederl",
+    title: "PhD Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "William Robertson",
     title: "Master's Student at the University of Chicago",
     badge: "UChicago Student",
@@ -316,6 +352,24 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Taylor Pate",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Iris chen",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Stella Jiang",
+    title: "University of Chicago, BS, 2025",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Mariska Kassi",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -388,8 +442,14 @@ export const signatories = [
     badgeType: "normal",
   },
   {
-    name: "Yuanlong Zheng",
-    title: "University of Chicago, PhD student, Undergraduate Alum, 2024",
+    name: "Daniel Boscu",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Yuning Shu",
+    title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
   },
@@ -1371,6 +1431,18 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Frances Poth",
+    title: "University of Chicago, Economics, 2024",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Ravindra Mangar",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Ethan Moore",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -1393,6 +1465,26 @@ export const signatories = [
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
+  },
+  {
+    name: "Josh Johnson",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Onese Ewherido",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Riley Rosener",
+    badge: null,
+  },
+  {
+    name: "Lydia Liu",
+    badge: null,
   },
   {
     name: "Anton Lesokhin",
