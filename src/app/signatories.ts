@@ -18,6 +18,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Edward L. Shaughnessy",
+    title: "UChicago Creel Distinguished Service Professor of Early China",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Sarah Nooter",
     title: "Edward Olson Professor of Classics at the University of Chicago",
     badge: "UChicago Faculty",
@@ -51,6 +57,12 @@ export const signatories = [
     name: "Eduardo García-Molina",
     title: "Assistant Professor of Classics, University of Illinois Urbana-Champaign",
     badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Rebecca Posner-Hess",
+    title: "Phd Student at the University of Chicago",
+    badge: "UChicago Student",
     badgeType: "normal",
   },
   {
@@ -99,6 +111,12 @@ export const signatories = [
     name: "Aydan Shahdadpuri",
     title: "PhD Student at the University of Chicago",
     badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Aware Deshmukh",
+    title: "Graduate Student at Columbia University",
+    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
@@ -247,6 +265,12 @@ export const signatories = [
     name: "Martin Niederl",
     title: "PhD Student at the University of Chicago",
     badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "G Rowan",
+    title: "Graduate Student",
+    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
@@ -427,6 +451,12 @@ export const signatories = [
     name: "Theo Johnson",
     title: "University of Chicago, BA, 2025",
     badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Emma Beane",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
     badgeType: "normal",
   },
   {
