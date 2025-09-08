@@ -12,6 +12,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Paola Iovene",
+    title: "UChicago Associate Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Hall",
     title: "Phyllis Fay Horton Distinguished Service Professor in the Humanities",
     badge: "UChicago Faculty",
