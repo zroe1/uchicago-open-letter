@@ -60,6 +60,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Radcliffe G. Edmonds III",
+    title: "Paul Shorey Professor of Greek, Bryn Mawr College",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Eduardo García-Molina",
     title: "Assistant Professor of Classics, University of Illinois Urbana-Champaign",
     badge: "UChicago Graduate",
