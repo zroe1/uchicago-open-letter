@@ -6,6 +6,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Bruce Lincoln",
+    title: "Caroline E. Haskell Distinguished Service Professor Emeritus of History of Religions",
+    badge: "UChicago Emeritus Professor",
+    badgeType: "emphasized",
+  },
+  {
     name: "David Martinez",
     title: "UChicago Associate Professor",
     badge: "UChicago Faculty",
@@ -60,8 +66,27 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Daragh Grant",
+    title: "Associate Senior Instructional Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Jonathan Levy",
+    title:
+      "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
+    badge: "Former UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Radcliffe G. Edmonds III",
     title: "Paul Shorey Professor of Greek, Bryn Mawr College",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Ian S. Moyer",
+    title: "Associate Professor of History, University of Michigan",
     badge: "UChicago Graduate",
     badgeType: "normal",
   },

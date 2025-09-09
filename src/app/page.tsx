@@ -458,7 +458,10 @@ export default function Home() {
                   className="flex items-center justify-between p-4 md:p-5 gap-3 md:gap-4">
                   <div className="flex-1 min-w-0">
                     <div className="text-base md:text-lg">{p.name}</div>
-                    <div className="text-sm md:text-base text-black/70">{p.title}</div>
+                    <div
+                      className="text-sm md:text-base text-black/70"
+                      dangerouslySetInnerHTML={{ __html: p.title || "" }}
+                    />
                   </div>
                   {p.badge && (
                     <span
