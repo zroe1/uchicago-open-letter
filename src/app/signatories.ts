@@ -25,13 +25,25 @@ export const signatories = [
   },
   {
     name: "Jonathan Hall",
-    title: "Phyllis Fay Horton Distinguished Service Professor in the Humanities",
+    title: "UChicago Phyllis Fay Horton Distinguished Service Professor in the Humanities",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
   {
     name: "Edward L. Shaughnessy",
     title: "UChicago Creel Distinguished Service Professor of Early China",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Salikoko S. Mufwene",
+    title: "UChicagoThe Edward Carson Waller Distinguished Service Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "François Richard",
+    title: "UChicago Associate Professor",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
@@ -50,6 +62,12 @@ export const signatories = [
   {
     name: "Emily Austin",
     title: "UChicago Associate Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Mehrnoush Soroush",
+    title: "UChicago Assistant Professor",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
