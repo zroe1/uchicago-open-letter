@@ -12,6 +12,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Philippe Desan",
+    title: "UChicago  Howard L. Willett Professor Emeritus in Romance Languages & Literatures",
+    badge: "UChicago Emeritus Professor",
+    badgeType: "emphasized",
+  },
+  {
     name: "David Martinez",
     title: "UChicago Associate Professor",
     badge: "UChicago Faculty",
@@ -85,7 +91,19 @@ export const signatories = [
   },
   {
     name: "Daragh Grant",
-    title: "Associate Senior Instructional Professor",
+    title: "UChicago Associate Senior Instructional Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "John P McCormick",
+    title: "UChicago Karl J Weintraub Professor in Political Science and the College",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Andrew Brandel",
+    title: "Associate Instructional Professor",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
