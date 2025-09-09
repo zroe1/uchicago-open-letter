@@ -108,6 +108,42 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Ania Aizman",
+    title: "UChicago Assistant Professor of Slavic Languages and Literatures",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Chris Taylor",
+    title: "UChicago Associate Professor of English",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Michael Dietler",
+    title: "UChicago Professor of Anthropology",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Uahikea Maile",
+    title: "UChicago Assistant Professor, Department of Race, Diaspora, and Indigeneity",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Darryl Li",
+    title: "UChicago Associate Professor, Anthropology",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Alida Bouris",
+    title: "UChicago Associate Professor, Crown Family School of Social Work, Policy, and Practice",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Levy",
     title:
       "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
