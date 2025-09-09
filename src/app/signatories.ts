@@ -37,7 +37,7 @@ export const signatories = [
   },
   {
     name: "Salikoko S. Mufwene",
-    title: "UChicagoThe Edward Carson Waller Distinguished Service Professor",
+    title: "UChicago Edward Carson Waller Distinguished Service Professor",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
