@@ -6,6 +6,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Loren Kruger",
+    title: "UChicago Professor Emerita, Comparative Literature",
+    badge: "UChicago Emerita Professor",
+    badgeType: "emphasized",
+  },
+  {
     name: "Bruce Lincoln",
     title: "Caroline E. Haskell Distinguished Service Professor Emeritus of History of Religions",
     badge: "UChicago Emeritus Professor",
@@ -14,6 +20,12 @@ export const signatories = [
   {
     name: "Philippe Desan",
     title: "UChicago  Howard L. Willett Professor Emeritus in Romance Languages & Literatures",
+    badge: "UChicago Emeritus Professor",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Thomas C Holt",
+    title: "James Westfall Thompson Distinguished Service Professor Emeritus",
     badge: "UChicago Emeritus Professor",
     badgeType: "emphasized",
   },
@@ -144,6 +156,30 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Aren Wilson-Wright",
+    title: "UChicago Assistant Instructional Professor in Middle Eastern Studies",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Catherine Kearns",
+    title: "UChicago Associate Professor, Classics and CEGU",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Augusta McMahon",
+    title: "UChicago Professor of Mesopotamian Archaeology, ISAC and MES",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Andreas Glaeser",
+    title: "UChicago Professor of Sociology",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Levy",
     title:
       "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
@@ -167,6 +203,20 @@ export const signatories = [
     title: "Assistant Professor of Classics, University of Illinois Urbana-Champaign",
     badge: "UChicago Graduate",
     badgeType: "normal",
+  },
+  {
+    name: "Ryan Watson",
+    title: "Associate Professor of Film and Media Studies, Misericordia University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Eva von Dassow",
+    title: "University of Minnesota Professor",
+  },
+  {
+    name: "Eduardo Henrique B. Vasconcelos",
+    title: "History Professor at State University of Goiás",
   },
   {
     name: "Rebecca Posner-Hess",
