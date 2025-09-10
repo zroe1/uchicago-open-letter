@@ -30,6 +30,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Bernard McGinn",
+    title: "UChicago Emeritus Professor, Divinity School",
+    badge: "UChicago Emeritus Professor",
+    badgeType: "emphasized",
+  },
+  {
     name: "David Martinez",
     title: "UChicago Associate Professor",
     badge: "UChicago Faculty",
@@ -180,11 +186,35 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Stephan Palmie",
+    title: "UChicago Norman and Edna Freehling Professor of Anthropology",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Jennie Ikuta",
+    title: "Associate Professor, University of Missouri-Columbia",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "William Schweiker",
+    title: "UChicago Edward L. Ryerson Distinguished Service Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Levy",
     title:
       "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
     badge: "Former UChicago Faculty",
     badgeType: "emphasized",
+  },
+  {
+    name: "Andrew Dilts",
+    title: "Associate Professor of Political Science, Loyola Marymount University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
   },
   {
     name: "Radcliffe G. Edmonds III",
