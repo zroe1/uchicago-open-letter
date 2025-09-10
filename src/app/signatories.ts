@@ -298,6 +298,12 @@ export const signatories = [
     title: "History Professor at State University of Goiás",
   },
   {
+    name: "Evan Yamaguchi",
+    title: "Graduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Rebecca Posner-Hess",
     title: "Phd Student at the University of Chicago",
     badge: "UChicago Student",
@@ -331,12 +337,6 @@ export const signatories = [
     name: "Andreas Petrou-Zeniou",
     title: "PhD Student at MIT",
     badge: "UChicago Graduate",
-    badgeType: "normal",
-  },
-  {
-    name: "Evan Yamaguchi",
-    title: "Graduate Student at the University of Chicago",
-    badge: "UChicago Student",
     badgeType: "normal",
   },
   {
@@ -560,6 +560,18 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Theo Johnson",
+    title: "University of Chicago, BA, 2025",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Francesco Rahe",
+    title: "BA in Fundamentals: Issues and Texts and Religious Studies, 2025",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Smyrna Osae",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -683,12 +695,6 @@ export const signatories = [
     name: "Christine Hignite",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
-    badgeType: "normal",
-  },
-  {
-    name: "Theo Johnson",
-    title: "University of Chicago, BA, 2025",
-    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
@@ -1148,12 +1154,6 @@ export const signatories = [
     name: "Charles Robinson",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
-    badgeType: "normal",
-  },
-  {
-    name: "Francesco Rahe",
-    title: "BA in Fundamentals: Issues and Texts and Religious Studies, 2025",
-    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
