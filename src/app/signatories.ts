@@ -36,6 +36,18 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Fred M. Donner",
+    title: "Peter B. Ritzma Professor Emeritus of Near Eastern History",
+    badge: "UChicago Emeritus Professor",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Elena Bashir",
+    title: "UChicago Senior Lecturer Emerita",
+    badge: "UChicago Senior Emerita Lecturer",
+    badgeType: "emphasized",
+  },
+  {
     name: "David Martinez",
     title: "UChicago Associate Professor",
     badge: "UChicago Faculty",
@@ -204,11 +216,42 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Hakan Karateke",
+    title: "UChicago Professor, Middle Eastern Studies",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Helga Anetshofer",
+    title: "UChicago Lecturer, MES",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Mario Santana",
+    title: "UChicago Associate Professor, Romance Languages and Literatures",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Levy",
     title:
       "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
     badge: "Former UChicago Faculty",
     badgeType: "emphasized",
+  },
+  {
+    name: "Marion Katz",
+    title: "Professor of Middle Eastern and Islamic Studies, NYU",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Abhishek Bhattacharyya",
+    title:
+      "Clinical Assistant Professor of South Asian Cultures, New York University - Liberal Studies",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
   },
   {
     name: "Andrew Dilts",
@@ -237,6 +280,12 @@ export const signatories = [
   {
     name: "Ryan Watson",
     title: "Associate Professor of Film and Media Studies, Misericordia University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Michael Kozuh",
+    title: "Professor",
     badge: "UChicago Graduate",
     badgeType: "normal",
   },
