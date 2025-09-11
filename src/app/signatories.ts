@@ -328,6 +328,12 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Rebecca Ploof",
+    title: "Assistant Professor, Leiden University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Sean Johnson",
     title: "Assistant Professor of Astronomy, University of Michigan",
     badge: "UChicago Graduate",
