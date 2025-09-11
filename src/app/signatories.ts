@@ -234,6 +234,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Marion Katz",
+    title: "Professor of Middle Eastern and Islamic Studies, NYU",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Levy",
     title:
       "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
@@ -241,9 +247,9 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
-    name: "Marion Katz",
-    title: "Professor of Middle Eastern and Islamic Studies, NYU",
-    badge: "UChicago Faculty",
+    name: "David Graver",
+    title: "JD 2000; Visiting Assistant Professor, English Dept, Summer 1997",
+    badge: "Former UChicago Faculty",
     badgeType: "emphasized",
   },
   {
@@ -348,6 +354,12 @@ export const signatories = [
   {
     name: "Aydan Shahdadpuri",
     title: "PhD Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Chana Toth-Sewell",
+    title: "PhD student in Slavic Languages and Literatures",
     badge: "UChicago Student",
     badgeType: "normal",
   },
@@ -503,6 +515,12 @@ export const signatories = [
     name: "Martin Niederl",
     title: "PhD Student at the University of Chicago",
     badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Liz Davidson, Ph.D.",
+    title: "B.A. in Classical Studies, 2008",
+    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
