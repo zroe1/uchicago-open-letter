@@ -78,6 +78,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Noha Forster",
+    title: "Associate Senior Instructional Professor,<br>Director of Arabic Language Program",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "François Richard",
     title: "UChicago Associate Professor",
     badge: "UChicago Faculty",
@@ -240,8 +246,8 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
-    name: "Noha Forster",
-    title: "Associate Senior Instructional Professor,<br>Director of Arabic Language Program",
+    name: "Amy Dru Stanley",
+    title: "Associate Professor of History, Law, and the College",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
