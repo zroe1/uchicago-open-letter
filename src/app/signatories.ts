@@ -240,6 +240,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Noha Forster",
+    title: "Associate Senior Instructional Professor,<br>Director of Arabic Language Program",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Levy",
     title:
       "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
@@ -324,6 +330,12 @@ export const signatories = [
   {
     name: "Caroline Kaminsky",
     title: "Graduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Julia Kulon",
+    title: "UChicago PhD Student, Department of Slavic Languages and Literatures",
     badge: "UChicago Student",
     badgeType: "normal",
   },
