@@ -42,6 +42,19 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Matthew W. Stolper",
+    title: "UChicago John A. Wilson Professor Emeritus, ISAC and MES",
+    badge: "UChicago Emeritus Professor",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Theo van den Hout",
+    title:
+      "UChicago Arthur and Joann Rasmussen Professor Emeritus of Hittite and Anatolian Languages, ISAC",
+    badge: "UChicago Emeritus Professor",
+    badgeType: "emphasized",
+  },
+  {
     name: "Elena Bashir",
     title: "UChicago Senior Lecturer Emerita",
     badge: "UChicago Senior Emerita Lecturer",
@@ -80,6 +93,19 @@ export const signatories = [
   {
     name: "Noha Forster",
     title: "Associate Senior Instructional Professor,<br>Director of Arabic Language Program",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Callie Maidhof",
+    title:
+      "UChicago Assistant Senior Instructional Professor and Associate Director of Global Studies",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Whitney Cox",
+    title: "UChicago Professor, South Asian Languages and Civilizations",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
@@ -265,9 +291,51 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Linda T. Darling",
+    title: "Professor Emerita, University of Arizona",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Shari Lowin",
+    title: "Professor, Stonehill College",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "John P. Nielsen",
+    title: "Associate Professor, Bradley University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Eric Reymond",
+    title: "Yale, Senior Lector II",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Abhishek Bhattacharyya",
     title:
       "Clinical Assistant Professor of South Asian Cultures, New York University - Liberal Studies",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Jessie DeGrado",
+    title: "Assistant Professor, University of Michigan",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Sean Johnson",
+    title: "Assistant Professor of Astronomy, University of Michigan",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Maha Nassar",
+    title: "Associate Professor, University of Arizona",
     badge: "UChicago Graduate",
     badgeType: "normal",
   },
@@ -318,6 +386,12 @@ export const signatories = [
   {
     name: "Evan Yamaguchi",
     title: "Graduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Julia Kulon",
+    title: "PhD Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
   },
