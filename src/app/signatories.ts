@@ -164,6 +164,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Rebecca Hasselbach-Andee",
+    title: "UChicago Professor of Comparative Semitics",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Andrew Brandel",
     title: "Associate Instructional Professor",
     badge: "UChicago Faculty",
@@ -278,6 +284,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Anna Elena Torres",
+    title: "UChicago Assistant Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Levy",
     title:
       "Professor of History, Sciences Po, Paris<br>UChicago PhD, History and Former James Westfall Thompson Professor of History",
@@ -289,6 +301,12 @@ export const signatories = [
     title: "JD 2000; Visiting Assistant Professor, English Dept, Summer 1997",
     badge: "Former UChicago Faculty",
     badgeType: "emphasized",
+  },
+  {
+    name: "Joe Manning",
+    title: "Yale University Professor of Classics and History",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
   },
   {
     name: "Linda T. Darling",
