@@ -73,6 +73,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Susan Gal",
+    title: "UChicago Distinguished Service Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jonathan Hall",
     title: "UChicago Phyllis Fay Horton Distinguished Service Professor in the Humanities",
     badge: "UChicago Faculty",
@@ -301,6 +307,12 @@ export const signatories = [
     title: "JD 2000; Visiting Assistant Professor, English Dept, Summer 1997",
     badge: "Former UChicago Faculty",
     badgeType: "emphasized",
+  },
+  {
+    name: "David Williams",
+    title: "Assistant Professor of Classics, University of Virginia",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
   },
   {
     name: "Joe Manning",
