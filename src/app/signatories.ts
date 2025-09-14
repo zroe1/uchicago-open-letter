@@ -376,6 +376,19 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "John Meloy",
+    title:
+      "American University in Cairo, Professor and Dean of the School of Humanities and Social Sciences",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "John Hyland",
+    title: "Professor of History, Christopher Newport University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Andrew Dilts",
     title: "Associate Professor of Political Science, Loyola Marymount University",
     badge: "UChicago Graduate",
@@ -418,6 +431,12 @@ export const signatories = [
   {
     name: "Eduardo Henrique B. Vasconcelos",
     title: "History Professor at State University of Goiás",
+  },
+  {
+    name: "Tobias Scheunchen",
+    title: "Fellow in the Society of Fellows, Princeton University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
   },
   {
     name: "Evan Yamaguchi",
