@@ -327,6 +327,12 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Robert Hawley",
+    title: "Directeur d'études, Ecole Pratique des Hautes Etudes, Paris, France",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Shari Lowin",
     title: "Professor, Stonehill College",
     badge: "UChicago Graduate",
