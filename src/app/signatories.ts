@@ -176,6 +176,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Alexander Beilinson",
+    title: "University Professor, Department of Mathematics",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Andrew Brandel",
     title: "Associate Instructional Professor",
     badge: "UChicago Faculty",
