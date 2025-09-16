@@ -254,12 +254,6 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
-    name: "Jennie Ikuta",
-    title: "Associate Professor, University of Missouri-Columbia",
-    badge: "UChicago Faculty",
-    badgeType: "emphasized",
-  },
-  {
     name: "William Schweiker",
     title: "UChicago Edward L. Ryerson Distinguished Service Professor",
     badge: "UChicago Faculty",
@@ -393,6 +387,12 @@ export const signatories = [
       "American University in Cairo, Professor and Dean of the School of Humanities and Social Sciences",
     badge: "UChicago Graduate",
     badgeType: "normal",
+  },
+  {
+    name: "Jennie Ikuta",
+    title: "Associate Professor, University of Missouri-Columbia",
+    badge: "UChicago Graduate",
+    badgeType: "emphasized",
   },
   {
     name: "John Hyland",
