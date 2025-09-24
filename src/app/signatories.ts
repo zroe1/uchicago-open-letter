@@ -182,6 +182,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Jared Berkowitz",
+    title: "Assistant Instructional Professor, Program in Law, Letters, and Society",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Andrew Brandel",
     title: "Associate Instructional Professor",
     badge: "UChicago Faculty",
@@ -370,6 +376,12 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Scott Siegel",
+    title: "San Francisco State University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Sean Johnson",
     title: "Assistant Professor of Astronomy, University of Michigan",
     badge: "UChicago Graduate",
@@ -543,6 +555,12 @@ export const signatories = [
   {
     name: "Alejandro Sarria",
     title: "PhD Student at Duke University",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Alex Medoff",
+    title: "Graduate Student at Cambridge University",
     badge: "UChicago Graduate",
     badgeType: "normal",
   },
@@ -1144,6 +1162,12 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Elliot Florack",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Shama Tirukkala",
     title: "University of Chicago, BA, 2024",
     badge: "UChicago Graduate",
@@ -1175,6 +1199,12 @@ export const signatories = [
   },
   {
     name: "Leo Kohlhepp",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Shiv Stueber",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
