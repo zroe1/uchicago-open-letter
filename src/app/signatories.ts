@@ -404,7 +404,7 @@ export const signatories = [
     name: "Jennie Ikuta",
     title: "Associate Professor, University of Missouri-Columbia",
     badge: "UChicago Graduate",
-    badgeType: "emphasized",
+    badgeType: "normal",
   },
   {
     name: "John Hyland",
