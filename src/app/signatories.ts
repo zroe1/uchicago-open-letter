@@ -283,6 +283,7 @@ export const signatories = [
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
+
   {
     name: "Marion Katz",
     title: "Professor of Middle Eastern and Islamic Studies, NYU",
@@ -298,6 +299,18 @@ export const signatories = [
   {
     name: "Anna Elena Torres",
     title: "UChicago Assistant Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Duygu Uygun-Tunc",
+    title: "UChicago Collegiate Assistant Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Jared Berkowitz",
+    title: "Assistant Instructional Professor, Program in Law, Letters, and Society",
     badge: "UChicago Faculty",
     badgeType: "emphasized",
   },
@@ -1008,6 +1021,12 @@ export const signatories = [
   },
   {
     name: "Julia Marin",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Elliot Florack",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
