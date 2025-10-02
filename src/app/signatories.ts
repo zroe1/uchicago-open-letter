@@ -672,6 +672,12 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Elena Rose Light",
+    title: "University of Chicago PhD Student, English/TAPS",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Jack Fantini",
     title: "PhD Candidate at the University of Chicago",
     badge: "UChicago Student",
@@ -686,6 +692,18 @@ export const signatories = [
   {
     name: "Gray Reichl",
     title: "PhD Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "David Tapper",
+    title: "JD candidate at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Bradford Case",
+    title: "PhD Student in English Language and Literature, University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
   },
@@ -728,6 +746,12 @@ export const signatories = [
   {
     name: "Livia Zhu",
     title: "Masters Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Jinge Ginny Li",
+    title: "Master's of Arts Student in the Humanities",
     badge: "UChicago Student",
     badgeType: "normal",
   },
@@ -1347,6 +1371,24 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Julian Moreno",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Nathaniel Son",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Mira Tensuan-Eli",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Maximiliano Mendoza",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -1588,6 +1630,12 @@ export const signatories = [
   },
   {
     name: "Marina Mendoza",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Erin Brady",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
@@ -1973,6 +2021,16 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Aiden LaLiberte",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "George Bobyk",
+    badge: null,
+  },
+  {
     name: "Riley Rosener",
     badge: null,
   },
@@ -2050,6 +2108,14 @@ export const signatories = [
   },
   {
     name: "Emily Siwing Xia",
+    badge: null,
+  },
+  {
+    name: "Arush Guliani",
+    badge: null,
+  },
+  {
+    name: "Aaron Wang",
     badge: null,
   },
   // {
