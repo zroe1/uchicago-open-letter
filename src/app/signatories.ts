@@ -1461,6 +1461,18 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Audrey He",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Harmonie Ramsden",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Emma Pavlicek",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
