@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { signatories } from "./signatories";
 export default function Home() {
   return (
@@ -40,6 +41,13 @@ export default function Home() {
               </a>
             </li>
             <li>
+              <Link
+                className="whitespace-nowrap rounded-full border border-[var(--maroon)]/50 px-3 py-1.5 text-[15px] text-[var(--maroon)]"
+                href="/resources">
+                Resources
+              </Link>
+            </li>
+            <li>
               <a
                 className="whitespace-nowrap rounded-full border border-[var(--maroon)]/50 px-3 py-1.5 text-[15px] text-[var(--maroon)]"
                 href="#appendix">
@@ -76,6 +84,13 @@ export default function Home() {
                   href="#signatories">
                   Signatories
                 </a>
+              </li>
+              <li>
+                <Link
+                  className="hover:underline decoration-[var(--maroon)] underline-offset-4"
+                  href="/resources">
+                  Resources
+                </Link>
               </li>
               <li>
                 <a
