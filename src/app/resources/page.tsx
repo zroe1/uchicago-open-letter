@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Other open letters and resources | Save UChicago",
@@ -66,8 +67,25 @@ export default function ResourcesPage() {
       </main>
 
       <footer className="border-t border-black/10">
-        <div className="mx-auto max-w-3xl px-5 md:px-8 py-8 text-sm text-black/60">
-          © {new Date().getFullYear()} UChicago Open Letter
+        <div className="mx-auto max-w-3xl px-5 md:px-8 py-8">
+          <div className="mb-4">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 text-[var(--maroon)] hover:underline underline-offset-4">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                />
+              </svg>
+              Back to homepage
+            </Link>
+          </div>
+          <div className="text-sm text-black/60">
+            © {new Date().getFullYear()} UChicago Open Letter
+          </div>
         </div>
       </footer>
     </div>
