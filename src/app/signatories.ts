@@ -666,8 +666,20 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Jin Tuan",
+    title: "Graduate student",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Michael Wayne",
     title: "PhD Student in History, Yale GSAS",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Carson Fredric Harkins",
+    title: "Law Student at Southwestern Law School",
     badge: "UChicago Graduate",
     badgeType: "normal",
   },
@@ -1575,6 +1587,30 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Theresa Christiansen",
+    title: "UChicago BS Neuroscience, BA Biology 2025",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Alexandra Mathews",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Amanda Murphy",
+    title: "UChicago, Computer Science 2025",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Ryan Robert Murphy",
+    title: "UChicago, BA in Philosophy, 2021",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Jacob Stump",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -2044,6 +2080,42 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Simon Seignourel",
+    title: "UChicago Student",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Xiaoyu Dong (Cassia)",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Joaquin Vidales",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Ilana Katwan",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Maxwell Oscar Beck",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Mary Polito Previte Dickman",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Kaiyang Chen",
     title: "University of Chicago, Philosophy and Religious Studies BA, 2025",
     badge: "UChicago Graduate",
@@ -2230,6 +2302,14 @@ export const signatories = [
   },
   {
     name: "Arush Guliani",
+    badge: null,
+  },
+  {
+    name: "Carter Otis",
+    badge: null,
+  },
+  {
+    name: "Ally Plombon",
     badge: null,
   },
   {
