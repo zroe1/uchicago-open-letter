@@ -176,6 +176,18 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Julie Orlemanski",
+    title: "UChicago Associate Professor",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
+    name: "Jodi A. Byrd",
+    title: "Professor at the University of Chicago",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Alexander Beilinson",
     title: "University Professor, Department of Mathematics",
     badge: "UChicago Faculty",
@@ -936,6 +948,24 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Natalie NItsch",
+    title: "Alumni, BA '23, MA (Divinity) '25",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Jack Huber",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Mella Bettag",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Mickey Kelly",
     title: "University of Chicago, BA Physics, 2024",
     badge: "UChicago Graduate",
@@ -1193,6 +1223,18 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Sang Yoon Lee",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Maggie Banks",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Xiaoqi Zhou",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -1250,6 +1292,12 @@ export const signatories = [
     name: "Shiv Stueber",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Anuraag Kaashyap",
+    title: "UChicago BS in Computer Science and Economics, 2025",
+    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
@@ -2033,6 +2081,12 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Morganna Williams",
+    title: "Alumnae Associate",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
     name: "Aiden LaLiberte",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -2092,6 +2146,10 @@ export const signatories = [
   },
   {
     name: "Celina Cortes",
+    badge: null,
+  },
+  {
+    name: "Charlotte Henderson",
     badge: null,
   },
   {
