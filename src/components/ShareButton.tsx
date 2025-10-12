@@ -6,12 +6,15 @@ export default function ShareButton() {
   const [isOpen, setIsOpen] = useState(false);
   const [showCopied, setShowCopied] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [isIOS, setIsIOS] = useState(false);
 
   useEffect(() => {
     // Detect if user is on mobile
     const checkMobile = () => {
       const mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent);
       setIsMobile(mobile);
+      setIsIOS(ios);
     };
     checkMobile();
   }, []);
@@ -52,29 +55,42 @@ export default function ShareButton() {
   };
 
   const handleInstagramShare = async () => {
-    if (isMobile) {
-      // On mobile: try to open Instagram directly after alerting user
+    if (isIOS) {
+      // iOS: Open image in new tab so user can long-press and "Add to Photos"
+      window.open(storyImageUrl, '_blank');
+      
+      setTimeout(() => {
+        alert(
+          "📸 Save to Photos:\n\n" +
+          "1. Long-press on the image\n" +
+          "2. Tap 'Add to Photos' or 'Save to Photos'\n" +
+          "3. Open Instagram\n" +
+          "4. Tap + to create a Story\n" +
+          "5. Select the image from your Photos\n" +
+          "6. Share to your story!"
+        );
+      }, 1000);
+    } else if (isMobile) {
+      // Android: Download works fine, image goes to gallery
       const link = document.createElement("a");
       link.href = storyImageUrl;
       link.download = "uchicago-letter-story.png";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-
-      // Wait a moment, then try to open Instagram
+      
       setTimeout(() => {
-        // Show instructions
         alert(
           "Image downloaded! 📸\n\n" +
-            "Next steps:\n" +
-            "1. Open Instagram\n" +
-            "2. Tap the + button to create a Story\n" +
-            "3. Select the downloaded image\n" +
-            "4. Add any text or stickers you'd like\n" +
-            "5. Share to your story!"
+          "Next steps:\n" +
+          "1. Open Instagram\n" +
+          "2. Tap the + button to create a Story\n" +
+          "3. Select the downloaded image\n" +
+          "4. Add any text or stickers you'd like\n" +
+          "5. Share to your story!"
         );
-
-        // Try to open Instagram app (will only work if installed)
+        
+        // Try to open Instagram app
         window.location.href = "instagram://story-camera";
       }, 500);
     } else {
@@ -89,27 +105,42 @@ export default function ShareButton() {
   };
 
   const handleSnapchatShare = () => {
-    if (isMobile) {
-      // On mobile: download and try to open Snapchat
+    if (isIOS) {
+      // iOS: Open image in new tab so user can long-press and "Add to Photos"
+      window.open(storyImageUrl, '_blank');
+      
+      setTimeout(() => {
+        alert(
+          "👻 Save to Photos:\n\n" +
+          "1. Long-press on the image\n" +
+          "2. Tap 'Add to Photos' or 'Save to Photos'\n" +
+          "3. Open Snapchat\n" +
+          "4. Swipe up from camera to access Memories\n" +
+          "5. Select the image from Camera Roll\n" +
+          "6. Post to your story!"
+        );
+      }, 1000);
+    } else if (isMobile) {
+      // Android: Download works fine
       const link = document.createElement("a");
       link.href = storyImageUrl;
       link.download = "uchicago-letter-story.png";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-
+      
       setTimeout(() => {
         alert(
           "Image downloaded! 👻\n\n" +
-            "Next steps:\n" +
-            "1. Open Snapchat\n" +
-            "2. Swipe up from the camera screen\n" +
-            "3. Select the downloaded image\n" +
-            "4. Add any text or effects\n" +
-            "5. Post to your story!"
+          "Next steps:\n" +
+          "1. Open Snapchat\n" +
+          "2. Swipe up from the camera screen\n" +
+          "3. Select the downloaded image\n" +
+          "4. Add any text or effects\n" +
+          "5. Post to your story!"
         );
-
-        // Try to open Snapchat app (will only work if installed)
+        
+        // Try to open Snapchat app
         window.location.href = "snapchat://";
       }, 500);
     } else {
@@ -173,7 +204,11 @@ export default function ShareButton() {
                 <div className="flex-1 min-w-0">
                   <div className="font-medium">Instagram Stories</div>
                   <div className="text-sm text-black/70">
-                    {isMobile ? "Download & open Instagram" : "Download & share to your story"}
+                    {isIOS
+                      ? "Save to Photos & share"
+                      : isMobile
+                      ? "Download & open Instagram"
+                      : "Download & share to your story"}
                   </div>
                 </div>
               </button>
@@ -190,7 +225,11 @@ export default function ShareButton() {
                 <div className="flex-1 min-w-0">
                   <div className="font-medium">Snapchat</div>
                   <div className="text-sm text-black/70">
-                    {isMobile ? "Download & open Snapchat" : "Download & add to your story"}
+                    {isIOS
+                      ? "Save to Photos & share"
+                      : isMobile
+                      ? "Download & open Snapchat"
+                      : "Download & add to your story"}
                   </div>
                 </div>
               </button>
@@ -249,15 +288,21 @@ export default function ShareButton() {
             {/* Instructions */}
             <div className="p-4 bg-black/5 border-t border-black/10">
               <p className="text-xs text-black/70">
-                {isMobile ? (
+                {isIOS ? (
                   <>
-                    <strong>Instagram/Snapchat:</strong> Click to download the image and we&apos;ll
-                    help open the app for you. Then just select the downloaded image and post!
+                    <strong>iPhone/iPad:</strong> The image will open in a new tab. Long-press on it
+                    and select &quot;Add to Photos&quot;. Then open Instagram/Snapchat and select the
+                    image from your Photos!
+                  </>
+                ) : isMobile ? (
+                  <>
+                    <strong>Android:</strong> Click to download the image and we&apos;ll help open the
+                    app for you. Then just select the downloaded image and post!
                   </>
                 ) : (
                   <>
-                    <strong>Instagram/Snapchat:</strong> Download the image, then open the mobile
-                    app and add it to your story. Transfer the file to your phone if needed.
+                    <strong>Desktop:</strong> Download the image, then transfer to your phone and open
+                    Instagram/Snapchat to add it to your story.
                   </>
                 )}
               </p>
