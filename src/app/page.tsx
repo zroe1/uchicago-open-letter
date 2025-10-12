@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { signatories } from "./signatories";
+import ShareButton from "@/components/ShareButton";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-black">
@@ -451,6 +453,13 @@ export default function Home() {
                     />
                   </svg>
                 </a>
+              </div>
+              <div className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-500 mt-6">
+                <h3 className="text-lg font-semibold mb-3 text-blue-900">Share After You Sign</h3>
+                <p className="text-black/80 mb-4">
+                  Help amplify this message by sharing on social media.
+                </p>
+                <ShareButton />
               </div>
             </div>
           </section>
