@@ -21,8 +21,7 @@ export default function ShareButton() {
   }, []);
 
   const shareUrl = "https://saveuchicago.com";
-  const shareText =
-    "Sign the open letter to save UChicago's humanities and social sciences programs. Stand against the dismantling of essential academic departments.";
+  const shareText = "Sign the open letter to save UChicago's humanities programs.";
   const storyImageUrl = `${
     typeof window !== "undefined" ? window.location.origin : ""
   }/story-share.png`;
@@ -45,7 +44,7 @@ export default function ShareButton() {
   };
 
   const copyToClipboard = async () => {
-    const textToCopy = `${shareText}\n\n${shareUrl}`;
+    const textToCopy = `${shareUrl}`;
     try {
       await navigator.clipboard.writeText(textToCopy);
       setShowCopied(true);
