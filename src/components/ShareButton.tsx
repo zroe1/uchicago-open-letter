@@ -11,8 +11,9 @@ export default function ShareButton() {
   useEffect(() => {
     // Detect if user is on mobile
     const checkMobile = () => {
-      const mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-      const ios = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+      const userAgent = navigator.userAgent;
+      const mobile = /iPhone|iPad|iPod|Android/i.test(userAgent);
+      const ios = /iPhone|iPad|iPod/i.test(userAgent);
       setIsMobile(mobile);
       setIsIOS(ios);
     };
@@ -54,103 +55,48 @@ export default function ShareButton() {
     }
   };
 
-  const handleInstagramShare = async () => {
+  // Unified story share (Instagram/Snapchat)
+  const handleStoryShare = () => {
     if (isIOS) {
       // iOS: Open image in new tab so user can long-press and "Add to Photos"
-      window.open(storyImageUrl, '_blank');
-      
+      window.open(storyImageUrl, "_blank");
       setTimeout(() => {
         alert(
-          "📸 Save to Photos:\n\n" +
-          "1. Long-press on the image\n" +
-          "2. Tap 'Add to Photos' or 'Save to Photos'\n" +
-          "3. Open Instagram\n" +
-          "4. Tap + to create a Story\n" +
-          "5. Select the image from your Photos\n" +
-          "6. Share to your story!"
+          "Save to Photos:\n\n" +
+            "1. Long-press the image\n" +
+            "2. Tap 'Add to Photos' or 'Save Image'\n" +
+            "3. Open Instagram or Snapchat\n" +
+            "4. Create a Story and select the saved image\n" +
+            "5. Post to your story!"
         );
-      }, 1000);
+      }, 600);
     } else if (isMobile) {
-      // Android: Download works fine, image goes to gallery
+      // Android and other mobile: download to gallery/downloads
       const link = document.createElement("a");
       link.href = storyImageUrl;
       link.download = "uchicago-letter-story.png";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      
       setTimeout(() => {
         alert(
-          "Image downloaded! 📸\n\n" +
-          "Next steps:\n" +
-          "1. Open Instagram\n" +
-          "2. Tap the + button to create a Story\n" +
-          "3. Select the downloaded image\n" +
-          "4. Add any text or stickers you'd like\n" +
-          "5. Share to your story!"
+          "Template downloaded!\n\n" +
+            "Open Instagram or Snapchat, create a Story, select the downloaded image, and post."
         );
-        
-        // Try to open Instagram app
-        window.location.href = "instagram://story-camera";
       }, 500);
     } else {
-      // Desktop: just download
+      // Desktop: download and instruct to transfer
       const link = document.createElement("a");
       link.href = storyImageUrl;
       link.download = "uchicago-letter-story.png";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-    }
-  };
-
-  const handleSnapchatShare = () => {
-    if (isIOS) {
-      // iOS: Open image in new tab so user can long-press and "Add to Photos"
-      window.open(storyImageUrl, '_blank');
-      
       setTimeout(() => {
         alert(
-          "👻 Save to Photos:\n\n" +
-          "1. Long-press on the image\n" +
-          "2. Tap 'Add to Photos' or 'Save to Photos'\n" +
-          "3. Open Snapchat\n" +
-          "4. Swipe up from camera to access Memories\n" +
-          "5. Select the image from Camera Roll\n" +
-          "6. Post to your story!"
+          "Template downloaded!\n\nTransfer it to your phone, then open Instagram or Snapchat to post as a Story."
         );
-      }, 1000);
-    } else if (isMobile) {
-      // Android: Download works fine
-      const link = document.createElement("a");
-      link.href = storyImageUrl;
-      link.download = "uchicago-letter-story.png";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      
-      setTimeout(() => {
-        alert(
-          "Image downloaded! 👻\n\n" +
-          "Next steps:\n" +
-          "1. Open Snapchat\n" +
-          "2. Swipe up from the camera screen\n" +
-          "3. Select the downloaded image\n" +
-          "4. Add any text or effects\n" +
-          "5. Post to your story!"
-        );
-        
-        // Try to open Snapchat app
-        window.location.href = "snapchat://";
-      }, 500);
-    } else {
-      // Desktop: just download
-      const link = document.createElement("a");
-      link.href = storyImageUrl;
-      link.download = "uchicago-letter-story.png";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      }, 300);
     }
   };
 
@@ -192,9 +138,9 @@ export default function ShareButton() {
             </div>
 
             <div className="p-2 space-y-1">
-              {/* Instagram Stories */}
+              {/* Instagram/Snapchat Story */}
               <button
-                onClick={handleInstagramShare}
+                onClick={handleStoryShare}
                 className="w-full flex items-center gap-3 p-3 rounded-md hover:bg-black/5 transition-colors text-left">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -202,34 +148,13 @@ export default function ShareButton() {
                   </svg>
                 </div>
                 <div className="flex-1 min-w-0">
-                  <div className="font-medium">Instagram Stories</div>
+                  <div className="font-medium">Instagram/Snapchat Story</div>
                   <div className="text-sm text-black/70">
                     {isIOS
-                      ? "Save to Photos & share"
+                      ? "Open template, Save to Photos"
                       : isMobile
-                      ? "Download & open Instagram"
-                      : "Download & share to your story"}
-                  </div>
-                </div>
-              </button>
-
-              {/* Snapchat */}
-              <button
-                onClick={handleSnapchatShare}
-                className="w-full flex items-center gap-3 p-3 rounded-md hover:bg-black/5 transition-colors text-left">
-                <div className="w-10 h-10 rounded-full bg-[#FFFC00] flex items-center justify-center flex-shrink-0">
-                  <svg className="w-7 h-7" fill="black" viewBox="0 0 24 24">
-                    <path d="M12.166 3c.796 0 3.495.223 4.769 3.073.426.959.324 2.589.24 3.898l-.002.047c-.011.146-.018.278-.024.41a.62.62 0 00.322.072c.241 0 .533-.143.886-.33.366-.195.775-.413 1.207-.413.473 0 .782.257.916.535.153.316.096.714-.159 1.118-.089.14-.193.265-.3.392l-.04.048c-.24.285-.524.623-.556 1.022-.069.865 1.042 1.354 2.203 1.87.266.119.541.24.808.374.648.325.91.768.784 1.315-.115.503-.612.851-1.294.907-.066.01-.136.014-.21.014-.41 0-1.017-.277-2.226-.84l-.04-.02c-.31-.143-.658-.306-.992-.462-.65-.303-1.162-.543-1.755-.543-.33 0-.635.091-.961.465-.524.601-1.01.847-1.67.847-.128 0-.267-.014-.419-.043l-.167-.031-.179-.032c-.441-.08-.932-.17-1.343-.17-.408 0-.9.09-1.342.17l-.179.032-.167.031c-.153.029-.291.043-.42.043-.658 0-1.144-.246-1.668-.847-.326-.374-.632-.465-.962-.465-.594 0-1.104.24-1.755.543-.334.156-.683.32-.992.463l-.04.019c-1.207.562-1.814.839-2.225.839-.074 0-.144-.005-.21-.014-.682-.056-1.178-.404-1.294-.907-.126-.547.136-.99.784-1.315.267-.134.542-.255.808-.374 1.16-.516 2.272-1.005 2.203-1.87-.032-.399-.316-.737-.556-1.022l-.04-.048c-.107-.127-.211-.252-.3-.392-.255-.404-.312-.802-.159-1.118.134-.278.443-.535.916-.535.432 0 .841.218 1.207.413.353.187.645.33.886.33a.62.62 0 00.322-.072c-.006-.132-.013-.264-.024-.41l-.002-.047c-.084-1.309-.186-2.939.24-3.898 1.274-2.85 3.973-3.073 4.769-3.073m0-1c-4.786 0-6.166 2.787-6.166 6.999 0 .553.046 1.189.095 1.86-.222.052-.44.078-.655.078-.468 0-.94-.171-1.303-.363-.345-.183-.66-.349-.909-.349-.684 0-1.246.397-1.51.997-.297.677-.17 1.449.378 2.292.088.136.19.261.293.386l.04.048c.213.252.435.513.45.731.038.557-.576.944-1.654 1.42-1.181.522-2.654 1.175-2.654 2.587 0 1.237 1.073 1.859 2.147 1.954.175.015.353.023.529.023 1.136 0 2.057-.553 2.967-.975l.04-.019c.3-.14.635-.295.954-.445.542-.256.899-.424 1.195-.424.062 0 .118.009.174.038.385.441.767.613 1.326.613.141 0 .297-.016.467-.048l.168-.031.178-.032c.405-.074.86-.158 1.208-.158.351 0 .806.084 1.209.158l.179.032.167.031c.17.032.326.048.467.048.559 0 .941-.172 1.326-.613.056-.029.112-.038.174-.038.296 0 .653.168 1.195.424.319.15.654.305.954.445l.04.019c.91.422 1.831.975 2.967.975.176 0 .354-.008.529-.023 1.074-.095 2.147-.717 2.147-1.954 0-1.412-1.473-2.065-2.654-2.587-1.078-.476-1.692-.863-1.654-1.42.015-.218.237-.479.45-.731l.04-.048c.103-.125.205-.25.293-.386.548-.843.675-1.615.378-2.292-.264-.6-.826-.997-1.51-.997-.249 0-.564.166-.909.349-.363.192-.835.363-1.303.363-.215 0-.433-.026-.655-.078.049-.671.095-1.307.095-1.86 0-4.212-1.38-6.999-6.166-6.999z" />
-                  </svg>
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="font-medium">Snapchat</div>
-                  <div className="text-sm text-black/70">
-                    {isIOS
-                      ? "Save to Photos & share"
-                      : isMobile
-                      ? "Download & open Snapchat"
-                      : "Download & add to your story"}
+                      ? "Download template"
+                      : "Download template"}
                   </div>
                 </div>
               </button>
@@ -261,52 +186,56 @@ export default function ShareButton() {
               {/* Copy Link */}
               <button
                 onClick={copyToClipboard}
-                className="w-full flex items-center gap-3 p-3 rounded-md hover:bg-black/5 transition-colors text-left">
-                <div className="w-10 h-10 rounded-full bg-gray-500 flex items-center justify-center flex-shrink-0">
-                  <svg
-                    className="w-6 h-6 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                    />
-                  </svg>
+                className={`w-full flex items-center gap-3 p-3 rounded-md transition-colors text-left ${
+                  showCopied ? "bg-green-50" : "hover:bg-black/5"
+                }`}
+                aria-live="polite"
+                aria-atomic="true">
+                <div
+                  className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 ${
+                    showCopied ? "bg-green-600" : "bg-gray-500"
+                  }`}>
+                  {showCopied ? (
+                    <svg
+                      className="w-6 h-6 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      className="w-6 h-6 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                      />
+                    </svg>
+                  )}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <div className="font-medium">Copy Link</div>
-                  <div className="text-sm text-black/70">
-                    {showCopied ? "Copied!" : "Copy link to clipboard"}
+                  <div className={`font-medium ${showCopied ? "text-green-800" : ""}`}>
+                    {showCopied ? "Copied!" : "Copy Link"}
+                  </div>
+                  <div className={`text-sm ${showCopied ? "text-green-700" : "text-black/70"}`}>
+                    {showCopied ? "Link copied to clipboard" : "Copy link to clipboard"}
                   </div>
                 </div>
               </button>
             </div>
 
             {/* Instructions */}
-            <div className="p-4 bg-black/5 border-t border-black/10">
-              <p className="text-xs text-black/70">
-                {isIOS ? (
-                  <>
-                    <strong>iPhone/iPad:</strong> The image will open in a new tab. Long-press on it
-                    and select &quot;Add to Photos&quot;. Then open Instagram/Snapchat and select the
-                    image from your Photos!
-                  </>
-                ) : isMobile ? (
-                  <>
-                    <strong>Android:</strong> Click to download the image and we&apos;ll help open the
-                    app for you. Then just select the downloaded image and post!
-                  </>
-                ) : (
-                  <>
-                    <strong>Desktop:</strong> Download the image, then transfer to your phone and open
-                    Instagram/Snapchat to add it to your story.
-                  </>
-                )}
-              </p>
-            </div>
+            {/* Removed bottom note per request */}
           </div>
         </>
       )}
