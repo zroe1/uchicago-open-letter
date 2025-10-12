@@ -494,12 +494,6 @@ export const signatories = [
     badgeType: "normal",
   },
   {
-    name: "Julia Kulon",
-    title: "PhD Student at the University of Chicago",
-    badge: "UChicago Student",
-    badgeType: "normal",
-  },
-  {
     name: "Rebecca Posner-Hess",
     title: "Phd Student at the University of Chicago",
     badge: "UChicago Student",
