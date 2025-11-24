@@ -482,6 +482,10 @@ export const signatories = [
     title: "History Professor at State University of Goiás",
   },
   {
+    name: "Maureen Anne Flanagan",
+    title: "Professor Emeritus Michigan State University and Illinois Institute ot Technology",
+  },
+  {
     name: "Tobias Scheunchen",
     title: "Fellow in the Society of Fellows, Princeton University",
     badge: "UChicago Graduate",
@@ -649,6 +653,12 @@ export const signatories = [
   },
   {
     name: "Emily Shein",
+    title: "Graduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Matias Zavala",
     title: "Graduate Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
@@ -2020,6 +2030,42 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Francisco Barrera",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Mason Wetzstein",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Sophia Liu",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Jonathan Chen",
+    title: "University of Chicago Student",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Graham Hansen",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Eamonn Keane",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Dominique Marichal",
     title: "University of Chicago, Biological Sciences BA, 2021",
     badge: "UChicago Graduate",
@@ -2207,6 +2253,23 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Silas Yates",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Angelina Tenuta",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Isaac Jo",
+    title: "Staff at Carnegie Mellon University",
+    badge: null,
+  },
+  {
     name: "George Bobyk",
     badge: null,
   },
@@ -2216,6 +2279,10 @@ export const signatories = [
   },
   {
     name: "Lydia Liu",
+    badge: null,
+  },
+  {
+    name: "Abagail Reiman",
     badge: null,
   },
   {
@@ -2283,6 +2350,14 @@ export const signatories = [
     badge: null,
   },
   {
+    name: "Isaac Wiener",
+    badge: null,
+  },
+  {
+    name: "Merina Diaz",
+    badge: null,
+  },
+  {
     name: "Kailas Devulapally",
     badge: null,
   },
@@ -2292,6 +2367,10 @@ export const signatories = [
   },
   {
     name: "Emily Siwing Xia",
+    badge: null,
+  },
+  {
+    name: "Samantha Suppes",
     badge: null,
   },
   {
@@ -2324,6 +2403,10 @@ export const signatories = [
   // },
   {
     name: "Nicole Faigen",
+    badge: null,
+  },
+  {
+    name: "Delaney Heffner",
     badge: null,
   },
   // {
