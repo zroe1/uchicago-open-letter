@@ -194,6 +194,12 @@ export const signatories = [
     badgeType: "emphasized",
   },
   {
+    name: "Christian Wedemeyer",
+    title: "Associate Professor of the History of Religions, Divinity School",
+    badge: "UChicago Faculty",
+    badgeType: "emphasized",
+  },
+  {
     name: "Jared Berkowitz",
     title: "Assistant Instructional Professor, Program in Law, Letters, and Society",
     badge: "UChicago Faculty",
@@ -751,6 +757,12 @@ export const signatories = [
     name: "Martin Niederl",
     title: "PhD Student at the University of Chicago",
     badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Bonnie Yap",
+    title: "AB '03, Former Staff at UChicago Medicine",
+    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
@@ -1384,6 +1396,30 @@ export const signatories = [
   },
   {
     name: "Cynthia Wang",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Jack Rich",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "John D'Andrea",
+    title: "Masters in Computer Science, 2021",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Sara Tabatabai",
+    title: "The Master of Arts in Public Policy with Certificate in Research Methods",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Asher Stone",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
     badgeType: "normal",
@@ -2330,6 +2366,10 @@ export const signatories = [
     badge: null,
   },
   {
+    name: "Jadyn Lewis",
+    badge: null,
+  },
+  {
     name: "Charlotte Henderson",
     badge: null,
   },
@@ -2407,6 +2447,10 @@ export const signatories = [
   },
   {
     name: "Delaney Heffner",
+    badge: null,
+  },
+  {
+    name: "Erica Cai",
     badge: null,
   },
   // {
