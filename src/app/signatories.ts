@@ -588,6 +588,18 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Trevor J. Gillis",
+    title: "UChicago PhD Student in New Testament and Early Christian Literature, Divinity School",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Evan Schafer",
+    title: "PhD Student, UChicago Divinity School",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Alex Medoff",
     title: "Graduate Student at Cambridge University",
     badge: "UChicago Graduate",
@@ -1341,6 +1353,12 @@ export const signatories = [
     badgeType: "normal",
   },
   {
+    name: "Pietro Stabile",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
     name: "Mingxuan (Aldous) Li",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
@@ -2033,6 +2051,36 @@ export const signatories = [
     name: "Ariana L",
     title: "Undergraduate Student at the University of Chicago",
     badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Nico Rose",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Isaac Shay Gerber",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Isaiah Buchberger",
+    title: "Undergraduate Student at the University of Chicago",
+    badge: "UChicago Student",
+    badgeType: "normal",
+  },
+  {
+    name: "Reese Villazor",
+    title: "University of Chicago, B.A. in History; Race, Diaspora & Indigeneity with Honors, 2025",
+    badge: "UChicago Graduate",
+    badgeType: "normal",
+  },
+  {
+    name: "Ola McLees",
+    title: "University of Chicago, BA, 2013",
+    badge: "UChicago Graduate",
     badgeType: "normal",
   },
   {
